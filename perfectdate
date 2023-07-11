@@ -1,0 +1,103 @@
+#PerfectDate
+#home
+import sys
+print("Your date is in 1 hour, what do you do?")
+print("Enter the letter corresponding to your choice.")
+c1 = input("a. text your date a heart emoji \nb. pick out an outfit \nc. start a valorant game \nd. get ready quickly so you can buy your date a gift \n")
+if (c1=="a"):
+    print("your date replies with another heart emoji, what do you do?")
+    c11 = input("a. reply with \"i'm stoked to see you babe\" \nb. leave them on read \n")
+    if (c11 == "a"):
+        print("your date said that their ex texted them and things escalated and now they're at their ex's house so the date is cancelled.")
+        sys.exit("L.")
+    elif (c11 == "b"):
+        print("your date replies with a rolling eyes emoji because they are annoyed at how you always leave them on read, they say their cat is farting too much so they can't come to the date.")
+        sys.exit("L.")
+elif (c1 == "b"):
+    print ("what outfit will you wear?")
+    c12 = input("a. shorts and a sleeveless tshirt \nb. nice blue tshirt with comfortable pants \nc. your favorite fortnite merch \n")
+    if (c12 == "a"):
+        print("when you check your outfit in the mirror, your intense hotness melts your eyes and the house explodes.")
+        sys.exit("L.")
+    elif (c12 == "b"):
+        print("very nice choice, your date will be impressed; or they would have been if you had not taken too long to choose your outfit. your date waited for you and then left.")
+        sys.exit("L.")
+    elif (c12 == "c"):
+        print("fortnite players don't get bitches.")
+        sys.exit("L.")
+elif (c1 == "c"):
+    print("you were stupid enough to start a competitive and it went into overtime and you are 54-54 and your date called you a bitch and blocked you.")
+    sys.exit("L.")
+elif (c1 == "d"):
+    print("you are well dressed AND you did it quick, well done! now, what gift will you get for your date?")
+    c2  = input("a. a nice handwritten note expressing your love. \nb. a box of chocolates \nc. flowers \nd. a personalised gift based on their special interest that they mentioned once a long time ago \n")
+    if (c2 == "a"):
+        print("what will you write?")
+        c21 = input("a. copy a famous love quote \nb. a lyric from their favorite love song \nc. a heartfelt letter expressing your wedding and your future kids' names and how they will stay at home taking care of them\n")
+print("ok, now that your gift is ready. you are finally ready to go on the date. what do you do?")
+c3 = input("a. go straight to the restaurant where your date is \nb. grab a pre-date shwarma \nc. pick your date up\n")
+if (c3 == "a"):
+    print("your date is dissapointed you did not pick them up, they are not coming anymore.")
+    sys.exit("L.")
+elif (c3 == "b"):
+    print("after you finished your shwarma your stomach groaned and then you almost shat your pants in front of the shwarma guy but you have diarrhea now so you can't go on ur date.")
+    sys.exit("L.")
+elif (c3 == "c"):
+    print("you go to their house and ring the bell. \nyour date opens the door and they look spectacular. they are wearing your favorite outfit. they are smiling.")
+    name = input("Enter your name \n")
+    print("\"Hi,",name,", how are you?\"")
+    print("You raise your gift to them.")
+    print("\"Aw you brought me a gift?\"")
+    if (c2 =="a"):
+        if(c21 == "a"):
+            print("\"ew, you really thought you could impress me with some cheap line off the internet? bye\" they slam the door on you.")
+            sys.exit("L.")
+        elif (c21 == "b"):
+            print("\"oh my god\" your date gasps, they smile. \nthey are not smiling about you. this song reminds them of their ex.")
+            print("\"um, i don't think i am ready for another relationship yet. it's not you, it's me. sorry, bye.\" they close the door and text their ex \"wyd bbg\"")
+            sys.exit("L.")
+        elif (c21 == "c"):
+            print("\"oh wow\" your date chuckles nervously. \"this is uh, very sweet.\" there is an awkward pause.")
+            print("\"you know what, i'm not feeling that well right now. byeee.\" they close the door on you because they are scared of committment.")
+            sys.exit("L.")
+    elif(c2 == "b"):
+        print("\"oh chocolates. i thought i told you i am allergic? why don't you ever listen!\" they close the door on you.")
+        sys.exit("L.")
+    elif(c2 == "c"):
+        print("\"flowers!!! oh my god you are so sweet.\" they kiss you on the cheek. what do you do?")
+        c4 = input("a. you blush \nb. you get grossed out \nc. you smile and head onto the restaurant for your date\n")
+    elif(c2 == "d"):
+        print("\"how tf do you know this about me. this is creepy. you are such a stalker. bye.\" they close the door and file a restraining order against you.")
+        sys.exit("L.")
+if(c4=="a"):
+    print("they find your blushing cute and you kiss them back on the cheek. they blush too. you share a moment and they kiss you. they pull you into their house and you makeout.")
+    sys.exit("W.")
+elif(c4 == "b"):
+    print("they are offended and push you out.")
+    sys.exit("L.")
+elif(c4=="c"):
+    print("you reach the restaurant. it is very crowded. what do you do?")
+    c5 = input("a. ask for a table. \nb. ask your date if they wanna get out of there and go somewhere better\n")
+if (c5=="a"):
+    print("they seat you and your date near the restroom. stinky old men come out with their zips open. your date is not having fun.")
+    print("you somehow get through the evening and then they run home, never to call you back.")
+elif (c5 == "b"):
+    print("your date excitedly replies \"yes!\". where do you take them?")
+    c6 = input ("a. a nice calm park. \nb. a cat cafe \nc. you ask them if they want to have dinner back at your house\n")
+    if (c6=="a"):
+          print("you reach the park. you sit together on a bench. your date plays a nice romantic song. they ask your hand to dance. what do you do?")
+          c61 = input("a. take their hand and kiss it. \nb. take their hand and pull them back to the bench.\n")
+          if (c61 == "a"):
+              print("your date blushes. you both dance the night away like that one scene in the notebook. it's perfect.")
+              sys.exit("W.")
+          elif (c61 == "b"):
+              print("they get offended. you can't believe you are on a date with someone who wants to parade around in public. your date is not your type. you leave.")
+              sys.exit("L.")
+    elif (c6=="b"):
+        print("your date starts licking the cats. they are horribly gross. you leave. good riddance.")
+        sys.exit("L.")
+    elif (c6=="c"):
+        print("your date says yes. you go back to your house. you order some good food and watch a movie. your date enjoys your company.")
+        print("they say they wanna take it slow but would love to go on another date.")
+        print("they kiss you good night on the lips and leave. it was a nice evening.")
+        sys.exit("W.")
